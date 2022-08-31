@@ -10,6 +10,7 @@ class side{
         System.out.println("enter b");
         b=s.nextInt();
         System.out.println("enter x");
+
         x=s.nextInt();
         side=Math.sqrt(Math.pow(a,2)+Math.pow(b,2)-(2*a*b*(Math.cos(x))));
         System.out.println(side);
