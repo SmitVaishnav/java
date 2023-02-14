@@ -11,7 +11,7 @@ class area{
         r=s.nextInt();
         System.out.println("enter R");
         R=s.nextInt();
-        System.out.println("enter h");
+        System.out.println("enter hight:");
         h=s.nextInt();
 
         area=(pi*r*r)+(2*pi*R*h);
